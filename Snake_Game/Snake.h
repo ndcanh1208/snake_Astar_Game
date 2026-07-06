@@ -5,7 +5,7 @@
 
 class Snake {
 public:
-    std::vector<sf::Vector2i> body; // Đốt đầu tiên body[0] là đầu rắn
+    std::vector<sf::Vector2i> body;
 
     Snake(sf::Vector2i startPos);
     sf::Vector2i getHeadPosition();
